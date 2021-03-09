@@ -14,6 +14,7 @@ import { GalleryComponent } from './gallery/gallery.component';
 import { OrderComponent } from './order/order.component';
 import { ContactComponent } from './contact/contact.component';
 import { LocationComponent } from './location/location.component';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -25,7 +26,8 @@ import { LocationComponent } from './location/location.component';
     GalleryComponent,
     OrderComponent,
     ContactComponent,
-    LocationComponent
+    LocationComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,

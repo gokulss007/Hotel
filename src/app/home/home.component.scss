@@ -1,14 +1,29 @@
+
 .v1{
     background:linear-gradient( to left ,rgb(0, 195, 255),rgb(45, 245, 228));
+     
     p{
         text-align: center;
         font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
         font-size: 21px;
         color: rgb(250, 76, 32);
+        
     }
 
 }
 .video {
    
- padding-left: 50vh;
+    position: relative;
+    width: 100%;
+    padding-bottom: 56.25%;
+    height: 0;
+    
+    iframe{
+        position:absolute;
+        top: 0;
+        left: 0;
+        height: 70%;
+        width: 70%;    
+    }
+
 }
